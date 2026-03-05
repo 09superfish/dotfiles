@@ -9,7 +9,7 @@ My personal Hyprland dotfiles for Arch Linux. Configs are managed with symlinks 
 | `fastfetch` | system info fetch tool |
 | `hypr` | Hyprland window manager + all modules |
 | `kitty` | terminal emulator |
-| `supertuxkart` | game controls (these were a pain to set up) |
+| `supertuxkart` | game controls |
 | `swaync` | notification center |
 | `waybar` | status bar |
 | `wofi` | app launcher |
