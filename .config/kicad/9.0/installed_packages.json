@@ -1,0 +1,401 @@
+{
+    "packages": [
+        {
+            "current_version": "4.0.1",
+            "install_timestamp": 1769967311,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/MitjaNemec"
+                    },
+                    "name": "Mitja Nemec"
+                },
+                "description": "Arrange footprints on a line, circle or grid.",
+                "description_full": "Arrange sequentially numbered footprints or footprints from multiple hierarchical sheets in linear, circular or matrix arrangement. This plugin works on footprints already present in the layout, so that layout and schematics stay in sync.\nThe placement of footprints from multiple hierarchical sheets works well together with ReplicateLayout plugin",
+                "identifier": "com.github.MitjaNemec.PlaceFootprints",
+                "license": "GPL-2.0",
+                "name": "Place Footprints",
+                "resources": {
+                    "homepage": "https://github.com/MitjaNemec/PlaceFootprints"
+                },
+                "tags": [
+                    "pcbnew",
+                    "footprints",
+                    "arrange"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "fcb2269394ba67da98ecda37b5050da0057065cdd0c86d1238a9fe7d34575b50",
+                        "download_size": 25080,
+                        "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/4.0.1/PlaceFootprints-4.0.1-pcm.zip",
+                        "install_size": 97709,
+                        "kicad_version": "9.0",
+                        "kicad_version_max": "9.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "4.0.1"
+                    },
+                    {
+                        "download_sha256": "fc9a6c98ed8ab0a64607567c4888cafc3cd71db12aad66a52aba35b8ef17ab8c",
+                        "download_size": 24080,
+                        "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/3.0.1/PlaceFootprints-3.0.1-pcm.zip",
+                        "install_size": 94597,
+                        "kicad_version": "7.99",
+                        "kicad_version_max": "8.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "3.0.1"
+                    },
+                    {
+                        "download_sha256": "9b4ab5f3b5578dfbbe0dd40dd08461b06d5f22489c1be2e1fd31447e6863f2da",
+                        "download_size": 23950,
+                        "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/2.1.4/PlaceFootprints-2.1.4-pcm.zip",
+                        "install_size": 93238,
+                        "kicad_version": "7.0",
+                        "kicad_version_max": "7.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "2.1.4"
+                    },
+                    {
+                        "download_sha256": "a6a838d34fbe07fba0909c22d0bfeed27c5430250dc837f1348c0578237031a8",
+                        "download_size": 22668,
+                        "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/1.2.12/PlaceFootprints-1.2.12-pcm.zip",
+                        "install_size": 78947,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.2.12"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "0.3",
+            "install_timestamp": 1769968544,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://adamws.github.io"
+                    },
+                    "name": "adamws"
+                },
+                "description": "Add vias using various patterns",
+                "description_full": "Add vias using various patterns",
+                "identifier": "com.github.adamws.kicad-via-patterns",
+                "license": "MIT",
+                "name": "Via Patterns",
+                "resources": {
+                    "Bug Tracker": "https://github.com/adamws/kicad-via-patterns/issues",
+                    "Homepage": "https://github.com/adamws/kicad-via-patterns"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "2481bf1af471876d89388f62ed79362ce4f1c9d16cdb686a61872477193587c7",
+                        "download_size": 30841,
+                        "download_url": "https://github.com/adamws/kicad-via-patterns/releases/download/v0.3/kicad_via_patterns-0.3.zip",
+                        "install_size": 29799,
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "0.3"
+                    },
+                    {
+                        "download_sha256": "926407d5d1b9a7188f749cd06d37bc95725ca639ca20eee0767170bb8d075697",
+                        "download_size": 28249,
+                        "download_url": "https://github.com/adamws/kicad-via-patterns/releases/download/v0.2/kicad_via_patterns-0.2.zip",
+                        "install_size": 27207,
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "0.2"
+                    },
+                    {
+                        "download_sha256": "e2455b68bf279861c76314c72a30561e138e5254f7e6f83ae96be99da73dd3aa",
+                        "download_size": 22873,
+                        "download_url": "https://github.com/adamws/kicad-via-patterns/releases/download/v0.1/kicad_via_patterns-0.1.zip",
+                        "install_size": 21831,
+                        "kicad_version": "7.0",
+                        "status": "development",
+                        "version": "0.1"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "9.0.7",
+            "install_timestamp": 1769968544,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "js.reynaud@gmail.com"
+                    },
+                    "name": "jsreynaud"
+                },
+                "description": "ViaStitching and more tools ",
+                "description_full": "Via stitching action tool and circular zone builder action tool. Use the action menu/toolbar feature.",
+                "identifier": "com.github.jsreynaud.kicad-action-scripts",
+                "license": "GPL-2.0",
+                "name": "kicad-action-scripts",
+                "resources": {
+                    "Github": "https://github.com/jsreynaud/kicad-action-scripts",
+                    "Readme": "https://github.com/jsreynaud/kicad-action-scripts/blob/master/README.md"
+                },
+                "tags": [
+                    "annular",
+                    "pcbnew",
+                    "dxf",
+                    "grid",
+                    "mcad"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "0eeafd1093962bf8fc18a38cbabd0ad9af64c0ad2d30e5a222a541e7adde92ff",
+                        "download_size": 51943,
+                        "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v9.0-0.7.0/kicad-action-scripts_v9.0-0.7.0.zip",
+                        "install_size": 296475,
+                        "kicad_version": "9.0",
+                        "kicad_version_max": "9.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "9.0.7"
+                    },
+                    {
+                        "download_sha256": "9b3768f085eaf0bc3ab7e96dd161f3d63580ab0057e1c572c5334d70d3158114",
+                        "download_size": 51954,
+                        "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v9.0-0.6.0/kicad-action-scripts_v9.0-0.6.0.zip",
+                        "install_size": 296521,
+                        "kicad_version": "9.0",
+                        "kicad_version_max": "9.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "9.0.6"
+                    },
+                    {
+                        "download_sha256": "79f0c0b4b0a2d99d1606a3d391139eba3b9990447a9a23f8d9c3fccab0d861c0",
+                        "download_size": 51689,
+                        "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v8.0-0.5.0/kicad-action-scripts_v8.0-0.5.0.zip",
+                        "install_size": 286862,
+                        "kicad_version": "8.0",
+                        "kicad_version_max": "8.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "8.0.5"
+                    },
+                    {
+                        "download_sha256": "922f5daac3ad5daeb76fb128ff509a108b37ddfcd4d8bf0902a95e1ab7f3c042",
+                        "download_size": 51780,
+                        "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v7.0-0.4.0/kicad-action-scripts_v7.0-0.4.0.zip",
+                        "install_size": 288098,
+                        "kicad_version": "7.0",
+                        "kicad_version_max": "7.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "7.0.4"
+                    },
+                    {
+                        "download_sha256": "643ea19928db3a8451d044e9cfa42cd3ee452bc8a72bfc6b0d60f68c1748e5cc",
+                        "download_size": 51208,
+                        "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v7.0-0.3.0/kicad-action-scripts_v7.0-0.3.0.zip",
+                        "install_size": 276785,
+                        "kicad_version": "7.0",
+                        "kicad_version_max": "7.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "7.0.3"
+                    },
+                    {
+                        "download_sha256": "976525775d5a2d74be17bc2f6b23e4a660cd6554686eb8c4990234b052be2ede",
+                        "download_size": 52163,
+                        "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v6.0-0.2.0/kicad-action-scripts_v6.0-0.2.0.zip",
+                        "install_size": 276266,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "6.0.1"
+                    },
+                    {
+                        "download_sha256": "3790d1ca1e4dc9b0d2fa68c61b3afa8453c4bf6a11dc3b46597195b6bf9126c2",
+                        "download_size": 51235,
+                        "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v5.1-0.2.0/kicad-action-scripts_v5.1-0.2.0.zip",
+                        "install_size": 297879,
+                        "kicad_version": "5.1",
+                        "kicad_version_max": "5.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "5.1.1"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.6",
+            "install_timestamp": 1769967310,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://mitxela.com"
+                    },
+                    "name": "mitxela"
+                },
+                "description": "A subdivision- and/or native arc-based track rounding plugin.",
+                "description_full": "Algorithmically smooth tracks in a predictable manner. Useful for flex PCBs, or just because it looks cool.",
+                "identifier": "com.github.mitxela.kicad-round-tracks",
+                "license": "Apache-2.0",
+                "name": "Round Tracks",
+                "resources": {
+                    "homepage": "https://github.com/mitxela/kicad-round-tracks"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "660242c52f248cb50a6c51c041f602a0150800ea4c9863e80f25534eea996d8f",
+                        "download_size": 17476,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.6/kicad-round-tracks-1.6.zip",
+                        "install_size": 41195,
+                        "kicad_version": "7.0.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.6"
+                    },
+                    {
+                        "download_sha256": "5f0e15a8e12db58b91c70154cbfcc4d293309af2f1aad503d1560e7b375800f3",
+                        "download_size": 15881,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.5/kicad-round-tracks-1.5.zip",
+                        "install_size": 33698,
+                        "kicad_version": "7.0.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.5"
+                    },
+                    {
+                        "download_sha256": "4466d0a379c25773c07bac3a76815745bbae40576eb3b3fb6eeec22812788547",
+                        "download_size": 15878,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.4/kicad-round-tracks-1.4.zip",
+                        "install_size": 33698,
+                        "kicad_version": "7.0.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.4"
+                    },
+                    {
+                        "download_sha256": "e4d1087cf726018840f5f75291aae55de8cece49e2bada30be1e19ab6b474c40",
+                        "download_size": 15433,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.2/kicad-round-tracks-1.2.zip",
+                        "install_size": 32694,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.2"
+                    },
+                    {
+                        "download_sha256": "3ac65b3be5f1acd3e56583846d49b19ff425ed0a03154c775f4d655cd30fbdcc",
+                        "download_size": 14742,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.1/kicad-round-tracks-1.1.zip",
+                        "install_size": 29430,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.1"
+                    },
+                    {
+                        "download_sha256": "0ee531e5f324e22af07df691d529848e36f9960c2e0cf9ce8d4da3c2bcf0cc21",
+                        "download_size": 14632,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.0/kicad-round-tracks-1.0.zip",
+                        "install_size": 29167,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}

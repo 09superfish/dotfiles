@@ -18,6 +18,7 @@ CONFIGS=(
     "swaync"
     "waybar"
     "wofi"
+    "kicad"
 )
 
 GREEN='\033[0;32m'
