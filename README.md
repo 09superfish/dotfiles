@@ -1,6 +1,6 @@
 # dotfiles
 
-My personal Hyprland dotfiles for Arch Linux. Configs are managed with symlinks so any changes made to the files are automatically tracked by git.
+My personal Hyprland dotfiles for Fedora Linux. Configs are managed with symlinks so any changes made to the files are automatically tracked by git.
 
 ## what's included
 
@@ -8,7 +8,7 @@ My personal Hyprland dotfiles for Arch Linux. Configs are managed with symlinks 
 |---|---|
 | `fastfetch` | system info fetch tool |
 | `hypr` | Hyprland window manager + all modules |
-| `kicad` | PCB drawing |
+| `kicad` | PCB drawing tool | 
 | `kitty` | terminal emulator |
 | `supertuxkart` | game controls |
 | `swaync` | notification center |
@@ -22,9 +22,6 @@ Make sure `git` is installed, then:
 ```bash
 # clone the repo
 git clone https://github.com/09superfish/dotfiles.git ~/.dotfiles
-
-# make the script executable
-chmod +x ~/.dotfiles/symlink-dotfiles.sh
 
 # run it (sudo needed only the first time to install the script to /bin)
 sudo ~/.dotfiles/symlink-dotfiles.sh
