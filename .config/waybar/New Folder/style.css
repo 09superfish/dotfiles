@@ -1,0 +1,229 @@
+/* Global defaults for all modules */
+* {
+    /*border-radius: 10px;                      Rounded corners everywhere */
+    font-family: "JetBrainsMono Nerd Font";  /* Required for icons
+    border: none;*/
+    font-size: 13px;
+}
+
+/* Main Waybar window */
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.65);      /* Translucent Catppuccin background */
+    border-top-left-radius: 0px;             /* rounded corners on bottom only */
+    border-top-right-radius: 0px;            /* rounded corners on bottom only */
+    color: #cdd6f4;                          /* Default text color */
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+    background: inherit;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+.modules-right > * > * {
+    border-radius: 15px;
+    padding: 0 6px 0 6px;
+    background: rgba(49, 50, 68, 0.6);
+    min-width: 15px;
+}
+
+/* Hover:hover, effect for right-side modules */
+#cpu:hover,
+#network:hover,
+#clock:hover,
+#date:hover,
+#battery:hover,
+#custom-power:hover,
+#pulseaudio:hover {
+    background: rgba(69, 71, 90, 0.8);
+}
+
+#clock,
+#battery,
+#cpu,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#scratchpad,
+#window,
+#custom-power,
+#workspaces {
+margin: 0 2px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+
+#workspaces button {
+padding: 0 5px;
+background-color: transparent;
+color: #ffffff;
+}
+
+#workspaces button:hover {
+background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.active {
+border: 1px solid rgba(139, 213, 202, 0.6);
+background-color: rgba(138, 173, 244, 0.3);
+}
+
+#workspaces button.urgent {
+background-color: #eb4d4b;
+}
+
+#mode {
+background-color: #64727D;
+box-shadow: inset 0 -3px #ffffff;
+}
+
+#cpu {
+padding-left: 8px;
+padding-right: 8px;
+}
+
+/* Clock in the center */
+#clock {
+padding: 0 14px;
+font-weight: bold;
+}
+
+/* Battery states */
+#battery{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#battery.charging, #battery.plugged {
+color: #a6e3a1; /* Catppuccin green */
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+background-color: #f53c3c;
+color: #ffffff;
+animation-name: blink;
+animation-duration: 0.5s;
+animation-timing-function: steps(12);
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#network {
+/*background-color: #2980b9;*/
+min-width: 30px;
+padding-left: 12px;
+padding-right: 12px;
+}
+
+#network.disconnected {
+/*background-color: #f53c3c;*/
+color: #f38ba8;
+}
+
+#pulseaudio {
+/*background-color: #f1c40f;*/
+color: #fff;
+}
+
+#pulseaudio.muted {
+/*background-color: #90b1b1;*/
+color: #f38ba8;
+}
+
+#tray {
+/* background-color: #2980b9;*/
+border: 3px;
+border-radius: 10px;
+background-color: rgba(85, 88, 112, 0.6);
+}
+
+#tray > .passive {
+-gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+-gtk-icon-effect: highlight;
+background-color: #eb4d4b;
+}
+
+/* Media module */
+#custom-media {
+padding: 0 14px;
+margin-left: 12px;
+margin-top: 4px;
+margin-bottom: 4px;
+background: rgba(49, 50, 68, 0.6);
+color: #a6e3a1;
+border-radius: 6px;
+}
+
+#custom-logo {
+background-image: url("Logo.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+
+min-width: 28px;
+min-height: 28px;
+
+color: transparent;
+font-size: 1px;
+
+margin: 0 6px;
+margin-left: 15px;
+}
+
+
+/* Hover effect for media */
+#custom-media:hover {
+background: rgba(69, 71, 90, 0.8);
+}
+
+/* Tooltip styling (for media module, album art + progress) */
+tooltip {
+    background: rgba(30, 30, 46, 0.95);
+    border-radius: 12px;
+    color: #cdd6f4;
+}
+
+#custom-power {
+    margin-right: 3px;
+    color: rgb(237, 135, 150);
+}
