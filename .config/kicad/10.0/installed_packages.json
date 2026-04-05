@@ -507,18 +507,18 @@
             "repository_name": "KiCad official repository"
         },
         {
-            "current_version": "1.1",
-            "install_timestamp": 1774190117,
+            "current_version": "1.0",
+            "install_timestamp": 1775293427,
             "package": {
                 "author": {
                     "contact": {
-                        "web": "https://github.com/jordiorlando"
+                        "web": "https://github.com/wykys"
                     },
-                    "name": "Jordi Pakey-Rodriguez"
+                    "name": "Jan Vykydal"
                 },
-                "description": "Designed by @0xdec",
-                "description_full": "Designed by @0xdec.",
-                "identifier": "com.github.pointhi.kicad-color-schemes.nord",
+                "description": "Designed by wykys, Inspired by One Dark",
+                "description_full": "Designed by wykys, Inspired by One Dark",
+                "identifier": "com.github.pointhi.kicad-color-schemes.wdark",
                 "license": "CC0-1.0",
                 "maintainer": {
                     "contact": {
@@ -526,20 +526,20 @@
                     },
                     "name": "Thomas Pointhuber"
                 },
-                "name": "Nord Theme",
+                "name": "wDark Theme",
                 "resources": {
                     "Github": "https://github.com/pointhi/kicad-color-schemes"
                 },
                 "type": "colortheme",
                 "versions": [
                     {
-                        "download_sha256": "3d8d949e366e33c73d53e199d62aeafecd58c497e2a15d4b972fda8a18a03a11",
-                        "download_size": 6733,
-                        "download_url": "https://github.com/pointhi/kicad-color-schemes/releases/download/2021-12-05/com.github.pointhi.kicad-color-schemes.nord_v1.1_pcm.zip",
-                        "install_size": 10342,
+                        "download_sha256": "9e58f7e6032dd40221dc80817dc992f233eba1858d590104c3445d41abcc136a",
+                        "download_size": 4289,
+                        "download_url": "https://github.com/pointhi/kicad-color-schemes/releases/download/2021-12-05/com.github.pointhi.kicad-color-schemes.wdark_v1.0_pcm.zip",
+                        "install_size": 5490,
                         "kicad_version": "5.99",
                         "status": "stable",
-                        "version": "1.1"
+                        "version": "1.0"
                     }
                 ]
             },
